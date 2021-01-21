@@ -1,5 +1,5 @@
-name: 'PHPUnit'
-description: 'PHPUnit'
+name: 'PHPUnit for PHP 8'
+description: 'PHPUnit for PHP 8'
 author: 'David Lumaye (chindit)'
 branding:
   icon: 'check-circle'
