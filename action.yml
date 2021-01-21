@@ -1,0 +1,9 @@
+name: 'PHPUnit'
+description: 'PHPUnit'
+author: 'David Lumaye (chindit)'
+branding:
+  icon: 'check-circle'
+  color: 'purple'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
