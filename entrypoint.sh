@@ -22,14 +22,6 @@ if [[ ! -f vendor/bin/phpunit ]]; then
   exit 1
 fi
 
-echo "## Installing git"
-apt update
-apt -yq install git
-
-echo "## Installing composer"
-curl -L https://getcomposer.org/composer-stable.phar -o /usr/bin/composer
-chmod +x /usr/bin/composer
-
 echo "## Running PHPUnit"
 echo "PHP Version : ${PHP_FULL_VERSION}"
 ./vendor/bin/phpunit --version
